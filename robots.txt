@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aimsic-xjtlu.github.io/sitemap.xml

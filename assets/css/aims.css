@@ -1,0 +1,25 @@
+/* Organization navigation and responsive adjustments for the migrated AIMS page. */
+body { padding-bottom: 0; }
+.aims-nav { display: flex; align-items: center; flex-wrap: wrap; gap: .75rem 2rem; }
+.aims-nav__brand { color: #494e52; font-weight: 700; white-space: nowrap; }
+.aims-nav__links { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; padding: 0; margin: 0; list-style: none; }
+.aims-nav__links li { margin: 0; }
+.aims-nav__links a { display: inline-block; color: #494e52; padding: .25rem 0; }
+.aims-nav__links a:hover, .aims-nav__brand:hover { color: #287f97; text-decoration: underline; }
+#main > .archive { float: none; width: 100%; padding: 0; margin-left: 0; margin-right: 0; }
+h2[id] { scroll-margin-top: 1rem; }
+.page__title { overflow-wrap: break-word; }
+.page__footer { position: static; float: none; }
+.aims-footer__links { font-size: .8rem; margin: 0 0 .6rem; }
+.page__footer-copyright { margin: 0; }
+.skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 100; padding: .6rem 1rem; background: white; color: #494e52; }
+.skip-link:focus { top: .5rem; }
+@media (max-width: 600px) {
+  .aims-nav { align-items: flex-start; gap: .5rem; }
+  .aims-nav__links { width: 100%; gap: .25rem 1rem; font-size: .9rem; }
+  #main { margin-top: 1.5em; }
+  .archive > div[style] { text-align: left !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; }
+}

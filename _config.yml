@@ -1,0 +1,12 @@
+title: "AIMSIC-XJTLU"
+description: "Artificial-Intelligence and Mixed-Signal Integrated Circuits Group (AIMS) at Xi'an Jiaotong-Liverpool University."
+url: "https://aimsic-xjtlu.github.io"
+baseurl: ""
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
+  - LICENSE
+  - THIRD_PARTY_NOTICES.md

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aims.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="masthead__inner-wrap">
+      <nav class="aims-nav" aria-label="Main navigation">
+        <a class="aims-nav__brand" href="{{ '/' | relative_url }}">AIMSIC-XJTLU</a>
+        <ul class="aims-nav__links">
+          <li><a href="{{ '/' | relative_url }}#about-us">About</a></li>
+          <li><a href="{{ '/' | relative_url }}#current-research">Research</a></li>
+          <li><a href="{{ '/' | relative_url }}#people">People</a></li>
+          <li><a href="{{ '/' | relative_url }}#news">News</a></li>
+          <li><a href="{{ '/' | relative_url }}#contact-us">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <article class="archive" aria-labelledby="page-title">
+      <h1 class="page__title" id="page-title">{{ page.title | escape }}</h1>
+      {{ content }}
+    </article>
+  </main>
+  <div class="page__footer">
+    <footer>
+      <p class="aims-footer__links"><a href="https://github.com/AIMSIC-XJTLU">GitHub</a> &middot; <a href="{{ '/' | relative_url }}#contact-us">Contact Us</a></p>
+      <p class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} AIMSIC-XJTLU. Theme adapted from <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a> and <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
