@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://aimsic-xjtlu.github.io/about.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/contact.html</loc></url>
   <url><loc>https://aimsic-xjtlu.github.io/</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/news.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/ns-ram.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/people.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/buck.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/dtc.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/fir-dac.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/ppd-ns-sar-adc.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/sigma-delta.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/synaptic-tft.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/projects/transimpedance-amplifier.html</loc></url>
+  <url><loc>https://aimsic-xjtlu.github.io/research.html</loc></url>
 </urlset>

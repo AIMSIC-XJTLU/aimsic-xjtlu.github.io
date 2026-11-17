@@ -1,12 +1,9 @@
-# Third-party notices
+# Content and asset credits
 
-The group content in `index.md` was migrated from the existing AIMS page:
-https://github.com/Shenjian-Zhang/Shenjian-Zhang.github.io/blob/307566cf159e2e092d67dc17225d6c42f1ea378a/_pages/aims.md
+The group’s earlier website is the source for its historical material. [Original AIMS page](https://github.com/Shenjian-Zhang/Shenjian-Zhang.github.io/blob/307566cf159e2e092d67dc17225d6c42f1ea378a/_pages/aims.md).
 
-The compiled base stylesheet was obtained from the original AIMS site on 2026-11-11. It is based on AcademicPages and Minimal Mistakes. Unused icon font declarations were removed because this page does not use icon fonts.
+The [2024 SURF group photo](https://github.com/Shenjian-Zhang/Shenjian-Zhang.github.io/blob/307566cf159e2e092d67dc17225d6c42f1ea378a/images/SURF_2024.jpg) was imported from the group archive. The group supplied the 2025 graduation photo. Rights to the photographs remain with their respective rights holders.
 
-- AcademicPages: https://github.com/academicpages/academicpages.github.io
-- Minimal Mistakes: https://github.com/mmistakes/minimal-mistakes
-- Original theme license: MIT, Copyright (c) 2016 Michael Rose; reproduced in `LICENSE`.
+The chip artwork on the homepage is an AI-generated illustration. The array drawing on the NS-RAM page is a conceptual diagram.
 
-Font Awesome selector definitions retained in the upstream stylesheet are covered by the upstream code license: https://fontawesome.com/license/free (MIT code license). No icon fonts are distributed in this repository.
+[Sora](https://github.com/google/fonts/tree/main/ofl/sora) is distributed under the [SIL Open Font License](assets/fonts/OFL.txt). The [license from the previous theme](LICENSE) is retained in the repository.
